@@ -1,10 +1,7 @@
 from pandas import read_csv
 from numpy import array
 from xgboost.sklearn import XGBRegressor 
-#homedir='G:\\My Drive\\Papers\\2022\\CantileverSoldierPile\\EXCELCSV\\SoldierPile5varsKs300.csv'
-homedir='G:\\My Drive\\Papers\\2022\\FRPRCColumn\\EXCELCSV\\FRP-RC_Columns_Database_Concentric_OneHot.csv'
-#sutunlar = [r'$L$',r'$\gamma$',r'$\phi$',r'$q$',r'$Cost$', r'$D$']
-#colnames = [r'$L$',r'$\gamma$',r'$\phi$',r'$q$',r'$Cost$', r'$D$']
+homedir='https://raw.githubusercontent.com/ccakiroglu/FRPRCColumn/main/FRP-RC_Columns_Database_Concentric_OneHot.csv'
 colnames = [r'Slenderness',r'Ag',r'Circular',r'NWC',r'LWC',r'fc', r'GFRP$_L$', r'CFRP$_L$', r'Rho', r'E$_L$', r'fu$_L$',\
         r'GFRP$_H$', r'CFRP$_H$', r'steel$_H$', r'spiral', r'ties', r'spacingH', r'Pexp']
 vericercevesi = read_csv(homedir,header=0, names=colnames)
