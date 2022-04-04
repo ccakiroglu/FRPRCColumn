@@ -24,7 +24,7 @@ pyplot.rc('text',usetex=True)
 pyplot.rc('font',size=15)
 colnames = [r'Slenderness',r'Ag',r'Circular',r'NWC',r'LWC','fc', 'GFRP_L', 'CFRP_L', 'Rho', 'E_L', 'fu_L',\
         'GFRP_H', 'CFRP_H', 'steel_H', 'spiral', 'ties', 'spacing_H', 'Pexp']
-homedir='G:\\My Drive\\Papers\\2022\\FRPRCColumn\\EXCELCSV\\FRP-RC_Columns_Database_Concentric_OneHot.csv'
+homedir='https://raw.githubusercontent.com/ccakiroglu/FRPRCColumn/main/FRP-RC_Columns_Database_Concentric_OneHot.csv'
 df = read_csv(homedir,header=0,names=colnames)
 data=df.values
 # split into inputs and outputs
