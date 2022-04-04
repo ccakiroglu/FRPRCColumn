@@ -1,6 +1,6 @@
 from pandas import read_csv
 from numpy import array
-homedir='G:\\My Drive\\Papers\\2022\\FRPRCColumn\\EXCELCSV\\FRP-RC_Columns_Database_Concentric_OneHot.csv'
+homedir='https://raw.githubusercontent.com/ccakiroglu/FRPRCColumn/main/FRP-RC_Columns_Database_Concentric_OneHot.csv'
 #sutunlar = [r'$L$',r'$\\gamma$',r'$\\phi$',r'$q$',r'$Cost$', r'$D$']
 sutunlar = [r'$\lambda$',r'A$_g$',r'Circular',r'NWC',r'LWC',r'f$_c$', r'GFRP$_L$', r'CFRP$_L$', r'$\rho$', r'E$_L$', r'fu$_L$',\
         r'GFRP$_H$', r'CFRP$_H$', r'steel$_H$', r'spiral', r'ties', r'spacing$_H$', r'P$_exp$']
